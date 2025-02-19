@@ -1,6 +1,6 @@
 body{        
     background-color: rgb(0, 0, 0);
-    border: 30px solid rgb(70, 65, 65);
+    border: 75px solid #e8002a;
     margin: 0; 
     padding: 0; 
     height: 100vh; 
@@ -11,9 +11,18 @@ body{
   }
   h1{
     background-color:rgb(0, 0, 0);
-    color:rgb(255, 0, 255);
+    color:rgb(255, 0, 0);
     font-size: 50px;        
   }
   a{
     font-size: 50px;
+  }
+  .titulo{
+    text-align: center;
+  }
+  .imagens{
+    text-align: center;
+  }
+  .imagem{
+    text-align: initial;
   }
