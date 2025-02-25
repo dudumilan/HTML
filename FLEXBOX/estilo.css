@@ -1,0 +1,101 @@
+body, ul,li,p{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family:arial;
+}
+a{  
+    text-decoration: none;
+}
+.cabecario{
+    color:white;
+    background-color: rgb(234, 255, 0);
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a{
+    color:white;
+    background-color: rgb(255, 0, 0);
+    display: block;
+    padding: 10px; 
+}
+.headline{
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.chamada
+img{
+    max-width: 100%;    
+    display: block;
+    
+}
+.principal .chamada img{
+    width: 600px;
+    height: 400px;
+}
+.principal .chamada{
+    margin: 5px;
+}
+.artigos{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.artigos .secao{
+    background-color: blue;
+    color: blanchedalmond;
+    width: 400px;
+    height: 200px;
+}
+.artigos .secao.secao1{
+    background-color: aquamarine;
+}
+.artigos .secao.secao2{
+    background-color: rgb(10, 156, 107);
+}
+.artigos .secao .secao3{
+    background-color: rgb(2, 80, 54);
+}
+.artigos .secao3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.artigos .secao1{
+    display: flex;
+}
+.artigos .secao2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.artigos .secao2 .cont{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.artigos .secao .cont img{
+    height: 150px;
+}
